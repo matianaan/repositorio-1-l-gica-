@@ -1,0 +1,30 @@
+
+/*Se agregan estilos para mejorar la experiencia de usuario*/
+/*Se agrega color al fondo*/
+body{
+    background-color:  rgb(235, 193, 193);
+}
+/* Se centra el menu para mejor visuaizacion, como se quita el estilo predefinido y se agrega color*/
+ul {
+    list-style:  none;
+    background-color: rgb(235, 193, 193);
+    text-align: center;
+}
+/*Se agregan estilo para verse de manera horizontal color y padding*/
+li{
+    display: inline-block;
+    background-color: rgb(180, 108, 95);
+    padding: 15px  ;
+
+}
+/*Se agregan algunos estilos a los anchor para no verse azules*/
+a {
+    color: rgb(15, 0, 0);
+    padding: 10px;
+    font-size: medium;
+    font-family: cursive;
+}
+/*Se agrega tamano a la letra de los parrafos*/
+p{
+    font-size: large;
+}
